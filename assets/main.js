@@ -509,15 +509,3 @@ titletext.addEventListener("click", function(){
   }
 });
 
-const thebook04 = document.getElementById("ButtonBook04");
-const bkspine04 = document.getElementById("bookspine");
-
-bkspine04.style.display = "none";
-
-thebook04.addEventListener("click", function(){
-  if (bkspine04.style.display === "none") {
-    bkspine04.style.display = "block";
-  } else {
-    bkspine04.style.display = "none";
-  }
-});

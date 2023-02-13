@@ -1,0 +1,52 @@
+body {
+    background: #000000;
+    width: 100%;
+}
+
+.maincontainer: {
+    width: 100%;
+}
+
+/* THE LIBRARY OF BABEL */
+
+.maintext {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 50%;
+    left: 45%;
+
+    font-family: 'Courier';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* or 100% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.maintext:hover {
+    position: absolute;
+    width: 9.4%;
+    height: auto;
+    top: 50.2%;
+    left: 45.4%;
+
+    font-family: 'Courier';
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.5px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    /* or 100% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
