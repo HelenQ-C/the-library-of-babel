@@ -617,7 +617,22 @@ cursor: help;
     border: 1.25px solid #FFFFFF;
     transform: rotate(23.84deg);
     opacity: 1.0;
-    animation: bookblink 2.5s linear;
+    animation: bookblink 2s linear;
+  }
+
+  .mobilebook:hover {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 107px;
+    height: 660px;
+    left: 35%;
+    top: -2%;
+    
+    background: #FFFFFF;
+    border: 1.25px solid #FFFFFF;
+    transform: rotate(23.84deg);
+    opacity: 1.0;
   }
 
   .book04 {
@@ -638,13 +653,13 @@ cursor: help;
     width: 250px;
     height: 97px;
     left: -4%;
-    top: 75%;
+    top: 75.5%;
     
     font-family: 'Courier';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 50px;
+    line-height: 35px;
     /* or 100% */
     text-align: left;
     
@@ -655,16 +670,16 @@ cursor: help;
     
     .title:hover {
       position: absolute;
-      width: 250px;
+      width: 240px;
       height: 97px;
       left: -4%;
-      top: 75%;
+      top: 76%;
     
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
-    font-size: 33px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 35px;
     letter-spacing: 4px;
     /* or 100% */
     text-align: left;
