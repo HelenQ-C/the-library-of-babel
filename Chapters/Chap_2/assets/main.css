@@ -192,3 +192,198 @@ body {
         transform: scale(1.0)
     }
 }
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    body {
+        background: #000000;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    
+    .pagecontainer {
+        position: absolute;
+        width: 98%;
+        height: 740px;
+        left: 2%;
+        top: 1%;
+    }
+    
+    .recright01 {
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 94%;
+        height: 80%;
+        left: 2%;
+        top: 12.7%;
+        padding: 35px 40px;
+        
+        background: #000000;
+        border: 1px solid #FFFFFF;
+    }
+    
+    .recright02 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 60px;
+        height: 682px;
+        left: 75%;
+        top: 12.7%;
+    
+        background: #000000;
+        border: 1px solid #FFFFFF;
+    }
+    
+    .recright02-2 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 60px;
+        height: 682px;
+        left: 75%;
+        top: 12.7%;
+    
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+    
+    .recleft01 {
+        display: none;
+    }
+    
+    .recleft02 {
+        display: none;
+    }
+    
+    .cls-1 {
+        fill: #fff;
+      }
+    
+    .buttoncontainer {
+        transform: scale(0.8)
+    }
+    
+     /* Polygon 1 */
+    
+    .hexagonsolid {
+        position: absolute;
+        width: 34px;
+        height: 34;
+        top: 33px;
+        left: -13px;
+        animation: shimmer 4s linear infinite;
+    }
+    
+    /* Polygon 2 */
+    
+    .hexagonline {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        top: 0px;
+        left: -44px;
+        animation: hexrotate 4s ease-in infinite;
+        transform-origin: center;
+        padding: 20px 10px 10px 10px;
+    }
+    
+    .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    
+    .textpassage {
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        animation: blink 2.5s linear infinite;
+
+    
+        color:#FFFFFF
+    }
+    
+    .textpassage:hover {
+        width: 93%;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 3.5px;
+        cursor: help;
+        animation: none;
+    
+        color:#FFFFFF
+    }
+    
+    .chapnumber {
+        font-family: 'Courier Prime';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+    
+        color:#FFFFFF;
+    }
+    
+    .chapnumber:hover {
+        margin: 17px 0 0 0;
+        width: 260px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 3.5px;
+        cursor: help;
+    
+        color:#FFFFFF
+    }
+    
+    
+    @keyframes hexrotate {
+        0% {
+            transform: rotate(0deg);
+            transform-origin: center;
+        }
+        15% {
+            transform: rotate(75deg);
+            transform-origin: center;
+        }
+        100% {
+            transform: rotate(360deg);
+            transform-origin: center;
+        }
+    }
+    
+    @keyframes shimmer {
+        0% {
+            opacity: 1.0;
+            transform: scale(1.0)
+        }
+        50% {
+            opacity: 0.3;
+            transform: scale(0.9)
+        }
+        100% {
+            opacity: 1.0;
+            transform: scale(1.0)
+        }
+    }
+
+    @keyframes blink {
+        0% {
+          opacity: 1.0;
+        }
+        50% {
+          opacity: 0.5;
+        }
+        100% {
+          opacity: 1.0;
+        }
+      }
+}
