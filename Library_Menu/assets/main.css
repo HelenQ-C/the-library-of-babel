@@ -1,20 +1,16 @@
 body {
     background: #000000;
-    width: 100%;
-}
-
-.maincontainer: {
-    width: 100%;
+    overflow: hidden;
 }
 
 /* THE LIBRARY OF BABEL */
 
 .maintext {
     position: absolute;
-    width: 10%;
+    width: 120px;
     height: auto;
-    top: 50%;
-    left: 45%;
+    top: 47.4%;
+    left: 45.2%;
 
     font-family: 'Courier';
     font-style: normal;
@@ -29,13 +25,13 @@ body {
 
 .maintext:hover {
     position: absolute;
-    width: 9.4%;
+    width: 120px;
     height: auto;
-    top: 50.2%;
-    left: 45.4%;
+    top: 47%.2;
+    left: 45.25%;
 
     font-family: 'Courier';
-    font-family: 'Helvetica';
+    font-family:5 'Helvetica';
     font-style: normal;
     font-weight: 700;
     font-size: 8.5px;
@@ -43,10 +39,390 @@ body {
     letter-spacing: 2px;
     /* or 100% */
     text-align: center;
+    cursor: help;
 
     color: #FFFFFF;
 }
 
+/* Group 6 */
 
+.pentagon01 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 28%;
+    left: 39%;
+    animation: rotate01 40s infinite linear;
+}
 
+.pentagon1:hover {
+    animation-play-state: paused;
+}
+
+/* Rectangle 25 */
+
+.rec01 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 126.41px;
+    height: 10.8px;
+    left: 29px;
+    top: 45px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-30.22deg);
+}  
+
+.rec01:hover {
+    background-color: #FFFFFF;
+}
+
+/* Rectangle 26 */
+
+.rec02 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 126.41px;
+    height: 10.8px;
+    left: 143px;
+    top: 245px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-30.22deg);
+}
+
+/* Rectangle 27 */
+
+.rec03 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 126.41px;
+    height: 10.8px;
+    left: 143px;
+    top: 45px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(30.45deg);
+}
+
+.rec03:hover {
+    background-color: #FFFFFF;
+}
+
+/* Rectangle 29 */
+
+.rec04 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 126.41px;
+    height: 10.8px;
+    left: 200px;
+    top: 145px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+/* Rectangle 30 */
+
+.rec05 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 126.41px;
+    height: 10.8px;
+    left: -28px;
+    top: 145px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+/* Rectangle 28 */
+
+.rec06 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 126.41px;
+    height: 10.8px;
+    left: 29px;
+    top: 245px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(30.45deg);
+}
+
+/* Group 4 */
+
+.pentagon02 {
+
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 1%;
+    left: 25%;
+
+    transform: rotate(4.96deg);
+    animation: rotate02 120s infinite linear;
+
+}
+
+.pentagon2:hover {
+    animation-play-state: paused;
+}
+
+/* Rectangle 31 */
+
+.rec07 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 373px;
+    height: 31.77px;
+    left: 390px;
+    top: 80px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(41.3deg);
+}
+
+/* Rectangle 32 */
+
+.rec08 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 373px;
+    height: 31.77px;
+    left: -63px;
+    top: 587px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(41.3deg);
+}
+
+/* Rectangle 33 */
+
+.rec09 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 373px;
+    height: 31.77px;
+    left: 496px;
+    top: 400px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(101.98deg);
+}
+
+/* Rectangle 34 */
+
+.rec10 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 373px;
+    height: 33px;
+    left: 270px;
+    top: 653px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-18.47deg);
+}
+
+/* Rectangle 35 */
+
+.rec11 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 373px;
+    height: 33px;
+    left: 56.97px;
+    top: 12px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-18.47deg);
+}
+
+/* Rectangle 36 */
+
+.rec12 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 373px;
+    height: 31.77px;
+    left: -169px;
+    top: 266.5px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(101.98deg);
+}
+
+/* Group 5 */
+
+.pentagon03 {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    left: 15%;
+    top: -20%;
+    animation: rotate03 150s infinite linear;
+    transform: rotate(58.05deg);
+}
+
+.pentagon3:hover {
+    animation-play-state: paused;
+}
+
+/* Rectangle 31 */
+
+.rec13 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 567px;
+    height: 49px;
+    left: 715px;
+    top: 347px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(74.38deg);
+}
+
+/* Rectangle 32 */
+
+.rec14 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 567px;
+    height: 49px;
+    left: -281px;
+    top: 616px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(74.38deg);
+}
+
+/* Rectangle 33 */
+
+.rec15 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 567px;
+    height: 49px;
+    left: 583px;
+    top: 843px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(135.06deg);
+}
+
+/* Rectangle 34 */
+
+.rec16 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 567px;
+    height: 49px;
+    left: 86px;
+    top: 977px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(14.61deg);
+}
+
+/* Rectangle 35 */
+
+.rec17 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 567px;
+    height: 49px;
+    left: 347px;
+    top: -14px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(14.61deg);
+}
+
+/* Rectangle 36 */
+
+.rec18 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 567px;
+    height: 49px;
+    left: -150.12px;
+    top: 120px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    transform: rotate(135.06deg);
+}
+
+@keyframes rotate01 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes rotate02 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes rotate03 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+}
 

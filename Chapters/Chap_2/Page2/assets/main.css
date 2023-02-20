@@ -1,0 +1,207 @@
+body {
+    background: #000000;
+    overflow: hidden;
+}
+
+
+.pagecontainer {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 2%;
+    top: 1%;
+}
+
+.recright01 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 596px;
+    left: 407px;
+    top: 62px;
+    padding: 60px;
+    
+    background: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+.recright02 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 583px;
+    left: 420px;
+    top: 68px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+.recright02-2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 583px;
+    left: 420px;
+    top: 68px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.recleft01 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 596px;
+    left: 15px;
+    top: 62px;
+    padding: 60px 60px 60px 50px;
+
+    background: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+.recleft02 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 583px;
+    left: 3px;
+    top: 68px;
+    
+    border: 1px solid #FFFFFF;
+}
+
+.recleft02:hover {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 392px;
+    height: 583px;
+    left: 3px;
+    top: 68px;
+    
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.cls-1 {
+    fill: #fff;
+  }
+
+.hexcontain {
+}
+
+ /* Polygon 1 */
+
+.hexagonsolid {
+    position: absolute;
+    width: 34px;
+    height: 34;
+    top: 60.5px;
+    right: 55px;
+    animation: shimmer 4s linear infinite;
+}
+
+/* Polygon 2 */
+
+.hexagonline {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 28px;
+    right: 25px;
+    animation: hexrotate 4s ease-in infinite;
+    transform-origin: center;
+    padding: 20px 10px 10px 10px;
+}
+
+.cls-2 {
+    fill: none;
+    stroke: #fff;
+  }
+
+.textpassage {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color:#FFFFFF
+}
+
+.textpassage:hover {
+    margin: 17px 0 0 0;
+    width: 260px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3.5px;
+    cursor: help;
+
+    color:#FFFFFF
+}
+
+.chapnumber {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color:#FFFFFF;
+    cursor: help;
+}
+
+.chapnumber:hover {
+    margin: 17px 0 0 0;
+    width: 260px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3.5px;
+
+    color:#FFFFFF
+}
+
+
+@keyframes hexrotate {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    15% {
+        transform: rotate(75deg);
+        transform-origin: center;
+    }
+    100% {
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        opacity: 1.0;
+        transform: scale(1.0)
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(0.9)
+    }
+    100% {
+        opacity: 1.0;
+        transform: scale(1.0)
+    }
+}
