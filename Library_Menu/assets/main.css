@@ -7,7 +7,7 @@ body {
     position: absolute;
     width: 1200px;
     height: 712px;
-    right: 8.5%;
+    right: 9%;
     top: -0.1%;
 }
 
@@ -102,6 +102,10 @@ body {
     transform: rotate(-30.22deg);
 }
 
+.rec02:hover {
+    background-color: #FFFFFF;
+}
+
 /* Rectangle 27 */
 
 .rec03 {
@@ -138,6 +142,10 @@ body {
     transform: rotate(-90deg);
 }
 
+.rec04:hover {
+    background-color: #FFFFFF;
+}
+
 /* Rectangle 30 */
 
 .rec05 {
@@ -154,6 +162,10 @@ body {
     transform: rotate(-90deg);
 }
 
+.rec05:hover {
+    background-color: #FFFFFF;
+}
+
 /* Rectangle 28 */
 
 .rec06 {
@@ -168,6 +180,10 @@ body {
     background: #000000;
     border: 1px solid #FFFFFF;
     transform: rotate(30.45deg);
+}
+
+.rec06:hover {
+    background-color: #FFFFFF;
 }
 
 /* Group 4 */
@@ -204,6 +220,10 @@ body {
     transform: rotate(41.3deg);
 }
 
+.rec07:hover {
+    background-color: #FFFFFF;
+}
+
 /* Rectangle 32 */
 
 .rec08 {
@@ -219,6 +239,11 @@ body {
     border: 1px solid #FFFFFF;
     transform: rotate(41.3deg);
 }
+
+.rec08:hover {
+    background-color: #FFFFFF;
+}
+
 
 /* Rectangle 33 */
 
@@ -236,6 +261,11 @@ body {
     transform: rotate(101.98deg);
 }
 
+.rec09:hover {
+    background-color: #FFFFFF;
+}
+
+
 /* Rectangle 34 */
 
 .rec10 {
@@ -251,6 +281,11 @@ body {
     border: 1px solid #FFFFFF;
     transform: rotate(-18.47deg);
 }
+
+.rec10:hover {
+    background-color: #FFFFFF;
+}
+
 
 /* Rectangle 35 */
 
@@ -268,6 +303,11 @@ body {
     transform: rotate(-18.47deg);
 }
 
+.rec11:hover {
+    background-color: #FFFFFF;
+}
+
+
 /* Rectangle 36 */
 
 .rec12 {
@@ -283,6 +323,11 @@ body {
     border: 1px solid #FFFFFF;
     transform: rotate(101.98deg);
 }
+
+.rec12:hover {
+    background-color: #FFFFFF;
+}
+
 
 /* Group 5 */
 
@@ -316,6 +361,11 @@ body {
     transform: rotate(74.38deg);
 }
 
+.rec13:hover {
+    background-color: #FFFFFF;
+}
+
+
 /* Rectangle 32 */
 
 .rec14 {
@@ -331,6 +381,11 @@ body {
     border: 1px solid #FFFFFF;
     transform: rotate(74.38deg);
 }
+
+.rec14:hover {
+    background-color: #FFFFFF;
+}
+
 
 /* Rectangle 33 */
 
@@ -348,6 +403,11 @@ body {
     transform: rotate(135.06deg);
 }
 
+.rec15:hover {
+    background-color: #FFFFFF;
+}
+
+
 /* Rectangle 34 */
 
 .rec16 {
@@ -362,6 +422,10 @@ body {
     background: #000000;
     border: 1px solid #FFFFFF;
     transform: rotate(14.61deg);
+}
+
+.rec16:hover {
+    background-color: #FFFFFF;
 }
 
 /* Rectangle 35 */
@@ -380,6 +444,11 @@ body {
     transform: rotate(14.61deg);
 }
 
+.rec17:hover {
+    background-color: #FFFFFF;
+}
+
+
 /* Rectangle 36 */
 
 .rec18 {
@@ -395,6 +464,11 @@ body {
     border: 1px solid #FFFFFF;
     transform: rotate(135.06deg);
 }
+
+.rec18:hover {
+    background-color: #FFFFFF;
+}
+
 
 @keyframes rotate01 {
     0% {
@@ -879,7 +953,23 @@ body {
         position: absolute;
         width: 1200px;
         height: 712px;
-        right: 8.5%;
+        right: -45%;
+        top: -0.1%;
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background: #000000;
+        overflow: hidden;
+    }
+    
+    .maincontainer {
+        position: absolute;
+        width: 1200px;
+        height: 712px;
+        right: -8%;
         top: -0.1%;
     }
     
@@ -889,8 +979,8 @@ body {
         position: absolute;
         width: 120px;
         height: auto;
-        top: 490px;
-        right: 245px;
+        top: 355px;
+        right: 539.2px;
     
         font-family: 'Courier';
         font-style: normal;
@@ -907,8 +997,8 @@ body {
         position: absolute;
         width: 120px;
         height: auto;
-        top: 375px;
-        right: 325px;
+        top: 355.5px;
+        right: 539px;
     
         font-family: 'Helvetica';
         font-style: normal;
@@ -929,8 +1019,8 @@ body {
         position: absolute;
         width: 300px;
         height: 300px;
-        top: 33.5%;
-        right: 31%;
+        top: 30%;
+        right: 37.5%;
         animation: rotate01 40s infinite linear;
     }
     
@@ -974,6 +1064,10 @@ body {
         transform: rotate(-30.22deg);
     }
     
+    .rec02:hover {
+        background-color: #FFFFFF;
+    }
+    
     /* Rectangle 27 */
     
     .rec03 {
@@ -1010,6 +1104,10 @@ body {
         transform: rotate(-90deg);
     }
     
+    .rec04:hover {
+        background-color: #FFFFFF;
+    }
+    
     /* Rectangle 30 */
     
     .rec05 {
@@ -1026,6 +1124,10 @@ body {
         transform: rotate(-90deg);
     }
     
+    .rec05:hover {
+        background-color: #FFFFFF;
+    }
+    
     /* Rectangle 28 */
     
     .rec06 {
@@ -1040,6 +1142,10 @@ body {
         background: #000000;
         border: 1px solid #FFFFFF;
         transform: rotate(30.45deg);
+    }
+    
+    .rec06:hover {
+        background-color: #FFFFFF;
     }
     
     /* Group 4 */
@@ -1076,6 +1182,10 @@ body {
         transform: rotate(41.3deg);
     }
     
+    .rec07:hover {
+        background-color: #FFFFFF;
+    }
+    
     /* Rectangle 32 */
     
     .rec08 {
@@ -1091,6 +1201,11 @@ body {
         border: 1px solid #FFFFFF;
         transform: rotate(41.3deg);
     }
+    
+    .rec08:hover {
+        background-color: #FFFFFF;
+    }
+    
     
     /* Rectangle 33 */
     
@@ -1108,6 +1223,11 @@ body {
         transform: rotate(101.98deg);
     }
     
+    .rec09:hover {
+        background-color: #FFFFFF;
+    }
+    
+    
     /* Rectangle 34 */
     
     .rec10 {
@@ -1123,6 +1243,11 @@ body {
         border: 1px solid #FFFFFF;
         transform: rotate(-18.47deg);
     }
+    
+    .rec10:hover {
+        background-color: #FFFFFF;
+    }
+    
     
     /* Rectangle 35 */
     
@@ -1140,6 +1265,11 @@ body {
         transform: rotate(-18.47deg);
     }
     
+    .rec11:hover {
+        background-color: #FFFFFF;
+    }
+    
+    
     /* Rectangle 36 */
     
     .rec12 {
@@ -1155,6 +1285,11 @@ body {
         border: 1px solid #FFFFFF;
         transform: rotate(101.98deg);
     }
+    
+    .rec12:hover {
+        background-color: #FFFFFF;
+    }
+    
     
     /* Group 5 */
     
@@ -1188,6 +1323,11 @@ body {
         transform: rotate(74.38deg);
     }
     
+    .rec13:hover {
+        background-color: #FFFFFF;
+    }
+    
+    
     /* Rectangle 32 */
     
     .rec14 {
@@ -1203,6 +1343,11 @@ body {
         border: 1px solid #FFFFFF;
         transform: rotate(74.38deg);
     }
+    
+    .rec14:hover {
+        background-color: #FFFFFF;
+    }
+    
     
     /* Rectangle 33 */
     
@@ -1220,6 +1365,11 @@ body {
         transform: rotate(135.06deg);
     }
     
+    .rec15:hover {
+        background-color: #FFFFFF;
+    }
+    
+    
     /* Rectangle 34 */
     
     .rec16 {
@@ -1234,6 +1384,10 @@ body {
         background: #000000;
         border: 1px solid #FFFFFF;
         transform: rotate(14.61deg);
+    }
+    
+    .rec16:hover {
+        background-color: #FFFFFF;
     }
     
     /* Rectangle 35 */
@@ -1252,6 +1406,11 @@ body {
         transform: rotate(14.61deg);
     }
     
+    .rec17:hover {
+        background-color: #FFFFFF;
+    }
+    
+    
     /* Rectangle 36 */
     
     .rec18 {
@@ -1267,6 +1426,11 @@ body {
         border: 1px solid #FFFFFF;
         transform: rotate(135.06deg);
     }
+    
+    .rec18:hover {
+        background-color: #FFFFFF;
+    }
+    
     
     @keyframes rotate01 {
         0% {
@@ -1303,55 +1467,4 @@ body {
             transform-origin: center;
         }
     }
-}
-
-@media screen and (min-width: 1480px) {
-    body {
-        background: #000000;
-        overflow: hidden;
-    }
-    
-    .maincontainer {
-        position: absolute;
-        width: 1200px;
-        height: 712px;
-        right: 15.5%;
-        top: 8.5%;
-        transform: scale(1.15)
-    }
-       
-}
-
-@media screen and (min-width: 1920px) {
-    body {
-        background: #000000;
-        overflow: hidden;
-    }
-    
-    .maincontainer {
-        position: absolute;
-        width: 1200px;
-        height: 712px;
-        right: 22.5%;
-        top: 17%;
-        transform: scale(1.45)
-    }
-       
-}
-
-@media screen and (min-width: 2560px) {
-    body {
-        background: #000000;
-        overflow: hidden;
-    }
-    
-    .maincontainer {
-        position: absolute;
-        width: 1200px;
-        height: 712px;
-        right: 33.5%;
-        top: 29.1%;
-        transform: scale(2.3)
-    }
-       
 }
