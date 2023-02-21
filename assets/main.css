@@ -1176,6 +1176,9 @@ cursor: help;
   border: 1px solid black;
   padding: 10px;
   transform: scale(1.15);
+  position: relative;
+  left: 55px;
+  transform: scale(1.2);
 }
 
 .mobile {
@@ -1265,6 +1268,8 @@ cursor: help;
     border: 1px solid black;
     padding: 10px;
     transform: scale(1.4);
+    position: relative;
+    left: 120px;
   }
   .title {
     position: absolute;
@@ -1346,6 +1351,119 @@ cursor: help;
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
+        line-height: 15px;
+        /* or 100% */
+      
+        color: #000000;
+      
+        transform: rotate(-66.21deg);
+      
+      }
+}
+
+
+
+@media screen and (min-width: 2560px) {
+
+  .bookcontainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 200px;
+    top: 8%;
+    transform: scale(1.1);
+    }    
+  
+  .codecontainer {
+    width: 480px;
+    height: 42px;
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 10px;
+    transform: scale(2.2);
+    position: absolute;
+    left: 350px;
+  }
+  .title {
+    position: absolute;
+    width: 550px;
+    height: 97px;
+    right: 450px;
+    top: 75%;
+    
+    font-family: 'Courier';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 50px;
+    /* or 100% */
+    text-align: right;
+    
+    color: #FFFFFF;
+    word-wrap: break-word;
+    }
+    
+    .title:hover {
+    position: absolute;
+    width: 550px;
+    height: 97px;
+    right: 450px;
+    top: 75.5%;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 6px;
+    /* or 100% */
+    text-align: right;
+    
+    color: #FFFFFF;
+    cursor: help;
+    }
+
+    .book04 {
+      box-sizing: border-box;
+      
+      position: absolute;
+      width: 5%;
+      height: 78%;
+      left: 28%;
+      top: 35px;
+      
+      background: #000000;
+      border: 1.25px solid #FFFFFF;
+      transform: rotate(23.84deg);
+      animation-name: appear03;
+      animation-duration: 5s;
+      }
+      
+      .bookspineback {
+        box-sizing: border-box;
+      
+        position: absolute;
+        width: 5%;
+        height: 78%;
+        left: 28%;
+        top: 35px;
+      
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        transform: rotate(23.84deg);
+      }
+      
+      .bookspinetext {
+        position: absolute;
+        width: 84px;
+        height: 11.54px;
+        left: 23%;
+        top: 65%;
+      
+        font-family: 'Courier';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
         line-height: 15px;
         /* or 100% */
       

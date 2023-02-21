@@ -1304,3 +1304,54 @@ body {
         }
     }
 }
+
+@media screen and (min-width: 1480px) {
+    body {
+        background: #000000;
+        overflow: hidden;
+    }
+    
+    .maincontainer {
+        position: absolute;
+        width: 1200px;
+        height: 712px;
+        right: 15.5%;
+        top: 8.5%;
+        transform: scale(1.15)
+    }
+       
+}
+
+@media screen and (min-width: 1920px) {
+    body {
+        background: #000000;
+        overflow: hidden;
+    }
+    
+    .maincontainer {
+        position: absolute;
+        width: 1200px;
+        height: 712px;
+        right: 22.5%;
+        top: 17%;
+        transform: scale(1.45)
+    }
+       
+}
+
+@media screen and (min-width: 2560px) {
+    body {
+        background: #000000;
+        overflow: hidden;
+    }
+    
+    .maincontainer {
+        position: absolute;
+        width: 1200px;
+        height: 712px;
+        right: 33.5%;
+        top: 29.1%;
+        transform: scale(2.3)
+    }
+       
+}
