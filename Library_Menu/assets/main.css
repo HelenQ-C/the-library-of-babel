@@ -1469,6 +1469,22 @@ body {
     }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1180px) {
+    body {
+        background: #000000;
+        overflow: hidden;
+    }
+    
+    .maincontainer {
+        position: absolute;
+        width: 1200px;
+        height: 712px;
+        right: -1%;
+        top: 0%;
+    }
+       
+}
+
 @media screen and (min-width: 1480px) {
     body {
         background: #000000;
