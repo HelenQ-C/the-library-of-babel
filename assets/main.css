@@ -707,6 +707,168 @@ cursor: help;
 }
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  body {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+  }
+
+  /* Group 1 */
+
+  .bookcontainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+  .bookspine {
+    opacity: 0.0;
+    animation-name: appear05;
+    animation-duration: 5s;
+  }
+  
+  .bookspine:hover {
+    opacity: 1.0;
+  }
+
+  /* Rectangle 1 */
+
+  .book01 {
+  opacity: 0.0;
+  animation-name: none;
+  }
+  
+  
+  /* Rectangle 8 */
+  
+  .book02 {
+
+  opacity: 0.0;
+  animation-name: none;
+  }
+  
+  /* Rectangle 4 */
+  
+  .book03 {
+  opacity: 0.0;
+  animation-name: none;
+  }
+  
+  /* Rectangle 3 */
+  
+  .mobilebook {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 95px;
+    height: 580px;
+    right: 35%;
+    top: 0%;
+    
+    background: #000000;
+    border: 1.25px solid #FFFFFF;
+    transform: rotate(23.84deg);
+    opacity: 1.0;
+    animation: bookblink 2s linear;
+  }
+
+  .mobilebook:hover {
+    background: #FFFFFF;
+  }
+
+  .book04 {
+    display: none;
+  }
+  
+  .bookspineback {
+    display: none;
+  }
+  
+  .bookspinetext {
+    display: none;
+  
+  }
+
+  .title {
+    position: absolute;
+    width: 250px;
+    height: 97px;
+    left: 0%;
+    top: 80%;
+    
+    font-family: 'Courier';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    /* or 100% */
+    text-align: left;
+    
+    color: #FFFFFF;
+    word-wrap: break-word;
+    animation: blink 3s linear infinite;
+    }
+    
+    .title:hover {
+      position: absolute;
+      width: 240px;
+      height: 97px;
+      left: 0%;
+      top: 81%;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 4px;
+    /* or 100% */
+    text-align: left;
+    
+    color: #FFFFFF;
+    cursor: help;
+    animation: none;
+    }
+
+    .background{
+      position: absolute;
+      top: -50%;
+      left: 0%;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1.0;
+      }
+      50% {
+        opacity: 0.3;
+      }
+      100% {
+        opacity: 1.0;
+      }
+    }
+
+    @keyframes bookblink {
+      0% {
+        background:#000000;
+      }
+      50% {
+        background:#FFFFFF;
+    }
+     100% {
+      background:#000000;
+  }
+}
+}
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   body {
     position:relative;
