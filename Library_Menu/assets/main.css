@@ -1469,7 +1469,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1180px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
     body {
         background: #000000;
         overflow: hidden;
