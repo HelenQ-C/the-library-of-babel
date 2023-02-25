@@ -255,7 +255,30 @@ body {
     }
     
     .recleft02 {
-        display: none;
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 60px;
+        height: 300px;
+        left: 5%;
+        top: 7.5%;
+    
+        background-color: #000000;
+        border: 1px solid #FFFFFF;
+    }
+
+    .recleft02:hover {
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 60px;
+        height: 300px;
+        left: 5%;
+        top: 7%;
+    
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
     }
     
     .cls-1 {
@@ -273,7 +296,7 @@ body {
         width: 34px;
         height: 34;
         top: 33px;
-        left: -13px;
+        right: -13px;
         animation: shimmer 4s linear infinite;
     }
     
@@ -284,7 +307,7 @@ body {
         width: 75px;
         height: 75px;
         top: 0px;
-        left: -44px;
+        right: -44px;
         animation: hexrotate 4s ease-in infinite;
         transform-origin: center;
         padding: 20px 10px 10px 10px;

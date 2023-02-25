@@ -259,7 +259,7 @@ body {
         width: 34px;
         height: 34;
         top: 33px;
-        left: -13px;
+        right: -13px;
         animation: shimmer 4s linear infinite;
     }
     
@@ -270,7 +270,7 @@ body {
         width: 75px;
         height: 75px;
         top: 0px;
-        left: -44px;
+        right: -44px;
         animation: hexrotate 4s ease-in infinite;
         transform-origin: center;
         padding: 20px 10px 10px 10px;
